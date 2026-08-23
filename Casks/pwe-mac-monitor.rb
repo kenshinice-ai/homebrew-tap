@@ -7,7 +7,7 @@ cask "pwe-mac-monitor" do
   desc "Menu-bar hardware monitor for Apple Silicon Macs"
   homepage "https://github.com/kenshinice-ai/pwemacmonitor"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
   depends_on arch: :arm64
 
   app "PWE MAC MONITOR.app"
