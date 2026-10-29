@@ -1,6 +1,6 @@
 cask "pwe-screen-encore" do
-  version "1.1.0"
-  sha256 "32fedba00a2ab670912ede6f28e7dd348698c3c54e163600f60cc0aa4f21b0af"
+  version "1.1.1"
+  sha256 "431227efdb1ca41725432105713a9aebc88700536d32c3278ec475e944e77368"
 
   url "https://github.com/kenshinice-ai/pwe-imac-display/releases/download/pwe-#{version}/PWE-Screen-Encore-#{version}.dmg"
   name "PWE Screen Encore"
