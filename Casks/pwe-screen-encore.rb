@@ -13,6 +13,8 @@ cask "pwe-screen-encore" do
     strategy :github_latest
   end
 
+  disable! date: "2026-11-01", because: "is waiting for an important update"
+
   depends_on macos: :sonoma
 
   app "PWE Screen Encore.app"
